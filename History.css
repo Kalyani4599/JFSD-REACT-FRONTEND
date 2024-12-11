@@ -1,0 +1,65 @@
+/* Container for the history page */
+.history-container {
+    padding: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .history-container h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  /* Section styling */
+  .history-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .history-section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .history-text {
+    width: 60%;
+  }
+  
+  .history-text h2 {
+    font-size: 28px;
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  .history-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for images */
+  .history-image {
+    width: 35%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .history-section {
+      flex-direction: column;
+    }
+  
+    .history-image {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .history-text {
+      width: 100%;
+    }
+  }
+  

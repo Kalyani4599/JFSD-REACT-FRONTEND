@@ -1,0 +1,87 @@
+/* Container for the home page content, centered using flexbox */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #4CAF50; /* Same green as the login button */
+  width: 100%;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Logout button in the navbar */
+.navbar button {
+  background-color: white;
+  color: #4CAF50;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar button:hover {
+  background-color: #ddd;
+}
+
+/* Main content styling */
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-top: 60px; /* Push content down below navbar */
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 600px; /* Limit text width for better readability */
+}
+
+/* Image styling */
+.pic5 {
+  width: 100%; /* Set width to 80% of its container */
+  max-width: 1200px; /* Maximum width for larger screens */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Add some spacing above the image */
+}

@@ -1,0 +1,57 @@
+/* components/Login.css */
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Set a default font for the page */
+  background-image: url('https://media.istockphoto.com/id/1296965095/photo/selective-focus-on-flag-indian-constitution-or-bharatiya-savidhana-preamble-old-scattered.jpg?s=612x612&w=0&k=20&c=tPCDkcPGUDE9VHwWj_1paZvN-SHHinLiyo_1BYISJ5Q='); /* Replace with your background image path */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Make sure the background covers the full height */
+}
+
+.login-container {
+  max-width: 400px; /* Limit the width of the login box */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  background-color: rgba(255, 255, 255, 0.9); /* Light background with transparency */
+}
+
+.login-title {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.input-group {
+  margin-bottom: 15px; /* Space between input fields */
+}
+
+label {
+  display: block; /* Make labels block-level for separate lines */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make label text bold */
+}
+
+input {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Add some padding */
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}

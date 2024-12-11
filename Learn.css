@@ -1,0 +1,68 @@
+/* Learn.css */
+
+.learn-container {
+  margin-top: 20px;
+}
+
+.learn-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.learn-btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.learn-btn:hover {
+  background-color: #0056b3;
+}
+
+.learn-dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 0;
+  display: none; /* Initially hidden */
+  z-index: 1;
+}
+
+.learn-dropdown:hover .learn-dropdown-content {
+  display: block; /* Show the dropdown when Learn button is hovered */
+}
+
+.learn-link {
+  padding: 10px 20px;
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.learn-link:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Component Content Styling */
+.component-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.component-content h2 {
+  color: #333;
+}

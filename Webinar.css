@@ -1,0 +1,81 @@
+/* Global body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Default background color */
+}
+
+/* Apply background image to the webinar page */
+.webinar-page {
+    /*background-image: url('https://static.vecteezy.com/system/resources/previews/024/947/928/non_2x/webinar-e-learning-training-business-internet-technology-concept-person-hand-using-laptop-computer-with-webinar-icon-on-virtual-screen-photo.jpg'); /* Replace with the actual image path */
+    background-size: cover; /* Make the background cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    min-height: 1000vh; /* Ensure the background covers the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the webinar content */
+.webinar-container {
+    background-color: white; /* White background for the Webinar content area */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80000px;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.webinar-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.webinar-item {
+    background-color: #f0f2f5; /* Light grey background for each webinar item */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 50px; /* Closed state */
+    cursor: pointer;
+}
+
+.webinar-item.open {
+    max-height: 300px; /* Open state */
+}
+
+.webinar-details {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-btn {
+    background-color: #4caf50; /* Green background for the register button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.register-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

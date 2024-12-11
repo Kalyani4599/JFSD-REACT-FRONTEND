@@ -1,0 +1,27 @@
+/* src/components/Preamble.css */
+
+.preamble-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white; /* Set background to white */
+  text-align: center;
+}
+
+.preamble-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.preamble-image {
+  width: 500px; /* Adjust image width as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.preamble-container p {
+  font-size: 18px;
+  line-height: 1.6;
+}

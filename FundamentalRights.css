@@ -1,0 +1,48 @@
+/* src/components/FundamentalRights.css */
+
+.fundamental-rights-container {
+  background-color: #f0f2f5; /* Set background color */
+  padding: 40px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.fundamental-rights-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.rights-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.rights-links button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.rights-links button:hover {
+  background-color: #45a049;
+}
+
+.rights-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.rights-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
